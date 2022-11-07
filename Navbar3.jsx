@@ -11,7 +11,7 @@ function Navbar3() {
        
       <Navbar.Toggle aria-controls="basic-navbar-nav" />  
       <Navbar.Collapse id="basic-navbar-nav" >  
-        <Nav className="me-auto">  
+        <Nav className="container-fluid">  
           <Nav.Link href="#home">Home</Nav.Link>
           <NavDropdown title="Features" id="basic-nav-dropdown">  
             <NavDropdown.Item href="#action/3.1">Dropdown Item 1</NavDropdown.Item>  
@@ -29,7 +29,7 @@ function Navbar3() {
             <NavDropdown.Item href="#action/3.4">Another Item</NavDropdown.Item>  
           </NavDropdown> 
           
-          <Nav className="justify-content-right">
+          <Nav className="ms-auto">
           <Nav.Link href="#home">About</Nav.Link>
           <Nav.Link href="#link">Contact</Nav.Link> 
           <Nav.Link href="#link">Terms of Use</Nav.Link> 
